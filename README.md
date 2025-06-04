@@ -1,6 +1,6 @@
 # Review Predictor
 
-This project and associated notebook fetches the McAuley-Lab/Amazon-Reviews-2023 dataset from HuggingFace, analyzes/cleans/pre-processes the data, trains a classifier with logistic regression, predicts reviews for positive/negative and 1-5 star ratings, and assesses model performance.
+This project and associated notebooks fetches the McAuley-Lab/Amazon-Reviews-2023 dataset from HuggingFace, analyzes/cleans/pre-processes the data, trains classifiers (logistic regression binary, logistic regression multi, random forest), predicts reviews, and assesses model performance.
 
 ## Install
 
@@ -9,4 +9,4 @@ This project and associated notebook fetches the McAuley-Lab/Amazon-Reviews-2023
 ## Run (Jupyter Notebook)
 
 - `uv run jupyter notebook`
-- Open amazon_reviews_exploration.ipynb
+- Open notebook of choice in `notebooks/`
